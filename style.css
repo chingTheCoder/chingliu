@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: grid;
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    height: 100vh;
+    width: 100vw;
+    justify-items: center;
+}
+
+.title {
+    height: 50px;
+    color: whitesmoke;
+    font-size: 4.5rem;
+}
+
+.gold {
+    color: gold;
+}
+
+.title > .gold {
+    font-weight: 900;
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+.about_drop {
+    font-size: 1.2rem;
+    color: gold;
+    position: fixed;
+    top: 37%;
+    left: 22%;
+    background-color: rgb(34, 30, 30);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid gold;
+}
+
+.project_drop {
+    font-size: 1.2rem;
+    color: gold;
+    position: fixed;
+    top: -10%;
+    right: -4%;
+    background-color: rgb(34, 30, 30);
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+    border: 1px solid gold;
+}
+
+.navigation {
+    font-size: 1.2rem;
+    color: gold;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: rgb(34, 30, 30);
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+    border: 1px solid gold; 
+}
+
