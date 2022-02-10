@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .content {
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                background-color: rgb(34, 30, 30);
+            }
+
+            main {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .paint {
+                background-color: rgb(34, 30, 30);
+                height: 100vh;
+            }
+
+            form {
+                font-size: 1.2rem;
+                width: 17vw;
+            }
+
+            input {
+                box-sizing: border-box;
+                display: block;
+                width: 100%;
+                padding: 5px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                border: 1px solid rgb(34, 30, 30);
+            }
+            form {
+                border: 1px solid gold;
+                padding: 30px 30px;
+                border-radius: 5px;
+                z-index: 100;
+                background-color: rgb(34, 30, 30);
+            }
+            form button {
+                width: 100%;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid gold;
+                background-color: rgb(34, 30, 30);
+                color: gold;
+            }
+            .paint {
+                display: grid;
+                align-items: center;
+                padding-left: 100px;
+            }
+            
+            .paint span {
+                color: whitesmoke;
+                font-size: 60px;
+            }
+            .in {
+                background-color: gold;
+                color: rgb(34, 30, 30);
+            }
+            .ball {
+                position: fixed;
+                top: 0;
+                right: -25%;
+                bottom: 0;
+                width: 50%;
+                background-color: gold;
+                height: 100vh;
+                z-index: 50;
+                border-radius: 50%;
+            }
+    </style>
+</head>
+<body>
+        <main>
+                <div class="ball">
+                </div>
+                <div class="paint">
+                    <span>Log<span class="in" style="color: rgb(34, 30, 30);margin-left: 5px;padding: 20px;border-radius:5px;">In</span></span>
+                </div>
+                <div class="content">
+                        <form action="/bosnia" method="post">
+                                <input type="text" placeholder="enter your username">
+                                <input type="password" placeholder="enter password">
+                                <button>send</button>
+                        </form>
+                </div>
+        </main>
+</body>
+</html>
